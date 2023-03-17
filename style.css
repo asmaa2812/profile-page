@@ -1,0 +1,581 @@
+/*general*/
+h1,h2,h3,h4,h5,h6,.navbar-brand
+{font-family: 'Montserrat', sans-serif;}
+.main-color{color: rgb(52,52,52);}
+.par-color{color: rgb(116,129,130);}
+.main-background{background-color: rgb(28,28,28);}
+.section-bg{background-color:#f7f7f7 ;}
+:root{--bg-color:rgb(28,28,28);}
+body{font-family: 'Poppins', sans-serif;}
+/*end-general*/
+
+/*start-home*/
+.home
+{
+    background-image: url(img/img/bg.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+.bg-layer
+{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+}
+.caption-home{text-align: center;}
+.caption-home h3::after
+{
+    content: " |";
+    animation: typing 10s linear infinite ;
+    font-size: 35px;
+    font-weight: bolder;
+    position: relative;
+}
+@keyframes typing {
+    0% {
+        content: " l|";
+    }
+
+    1% {
+        content: " la |";
+    }
+
+    2% {
+        content: " lar|";
+    }
+
+    3% {
+        content: " larr|";
+    }
+
+    4% {
+        content: " larry|";
+    }
+
+    5% {
+        content: " larry d|";
+    }
+
+    6% {
+        content: " larry da|";
+    }
+
+    7% {
+        content: " larry dan|";
+    }
+
+    8% {
+        content: " larry dani|";
+    }
+
+    9% {
+        content: " larry danie|";
+    }
+
+    10% {
+        content: " larry daniel|";
+    }
+
+    11% {
+        content: " larry daniels|";
+    }
+
+    13% {
+        content: " larry daniels|";
+    }
+
+    14% {
+        content: " larry daniels|";
+    }
+
+    15% {
+        content: " larry daniels|";
+    }
+
+    16% {
+        content: " larry daniel|";
+    }
+
+    17% {
+        content: " larry danie|";
+    }
+
+    18% {
+        content: " larry dani|";
+    }
+
+    19% {
+        content: " larry dan|";
+    }
+
+    20% {
+        content: " larry da|";
+    }
+
+    21% {
+        content: " larry d|";
+    }
+
+    22% {
+        content: " larry |";
+    }
+
+    23% {
+        content: " larry|";
+    }
+
+    24% {
+        content: " larr|";
+    }
+
+    25% {
+        content: " lar|";
+    }
+
+    25% {
+        content: " la|";
+    }
+
+    26% {
+        content: " l|";
+    }
+
+    27% {
+        content: " |";
+    }
+
+    28% {
+        content: " d|";
+    }
+
+    29% {
+        content: " de|";
+    }
+
+    30% {
+        content: " dev|";
+    }
+
+    31% {
+        content: " deve|";
+    }
+
+    32% {
+        content: " devel|";
+    }
+
+    33% {
+        content: " develo|";
+    }
+
+    34% {
+        content: " develop|";
+    }
+
+    35% {
+        content: " develope|";
+    }
+
+    36% {
+        content: " developer|";
+    }
+
+    37% {
+        content: " developer|";
+    }
+
+    38% {
+        content: " developer|";
+    }
+
+    39% {
+        content: " developer|";
+    }
+
+    40% {
+        content: " develope|";
+    }
+
+    41% {
+        content: " develop|";
+    }
+
+    42% {
+        content: " develo|";
+    }
+
+    43% {
+        content: " devel|";
+    }
+
+    44% {
+        content: " deve|";
+    }
+
+    45% {
+        content: " dev|";
+    }
+
+    46% {
+        content: " de|";
+    }
+
+    47% {
+        content: " d|";
+    }
+
+    48% {
+        content: " |";
+    }
+
+    49% {
+        content: " d|";
+    }
+
+    50% {
+        content: " de|";
+    }
+
+    51% {
+        content: " des|";
+    }
+
+    52% {
+        content: " desi|";
+    }
+
+    53% {
+        content: " desig|";
+    }
+
+    54% {
+        content: " design|";
+    }
+
+    55% {
+        content: " designe|";
+    }
+
+    56% {
+        content: " designer|";
+    }
+
+    57% {
+        content: " designer|";
+    }
+
+    58% {
+        content: " designer|";
+    }
+
+    59% {
+        content: " designer|";
+    }
+
+    60% {
+        content: " designer|";
+    }
+
+    61% {
+        content: " designe|";
+    }
+
+    62% {
+        content: " design|";
+    }
+
+    63% {
+        content: " desig|";
+    }
+
+    64% {
+        content: " desi|";
+    }
+
+    65% {
+        content: " des";
+    }
+
+    66% {
+        content: " de|";
+    }
+
+    67% {
+        content: " d";
+    }
+
+    68% {
+        content: " |";
+    }
+
+    69% {
+        content: "|";
+    }
+
+    70% {
+        content: "|";
+    }
+
+    71% {
+        content: "|";
+    }
+
+    72% {
+        content: "|";
+    }
+
+    73% {
+        content: "|";
+    }
+
+    74% {
+        content: "|";
+    }
+
+    75% {
+        content: "|";
+    }
+
+    76% {
+        content: "|";
+    }
+
+    77% {
+        content: "|";
+    }
+
+    78% {
+        content: "|";
+    }
+
+    79% {
+        content: "|";
+    }
+
+    80% {
+        content: "|";
+    }
+
+    81% {
+        content: "|";
+    }
+
+    82% {
+        content: "|";
+    }
+
+    83% {
+        content: "|";
+    }
+
+    84% {
+        content: "|";
+    }
+
+    85% {
+        content: "|";
+    }
+
+    86% {
+        content: "|";
+    }
+
+    87% {
+        content: "|";
+    }
+
+    88% {
+        content: "|";
+    }
+
+    89% {
+        content: "|";
+    }
+
+    90% {
+        content: "|";
+    }
+
+    91% {
+        content: "|";
+    }
+
+    92% {
+        content: "|";
+    }
+
+    93% {
+        content: "|";
+    }
+
+    94% {
+        content: "|";
+    }
+
+    95% {
+        content: "|";
+    }
+
+    96% {
+        content: "|";
+    }
+
+    97% {
+        content: "|";
+    }
+
+    98% {
+        content: "|";
+    }
+
+    99% {
+        content: "|";
+    }
+
+    100% {
+        content: "|";
+    }
+
+    /* Kerri Deo.| */
+    /* A Graphic Designer.| */
+    /* A Photographer.| */
+}
+.icon 
+{
+    padding: 8px 11px;
+    margin: 2px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/*end-home*/
+
+/*start-about*/
+.range-1
+{
+    width: 100%;
+    background-color:rgb(226, 225, 225);
+    outline: none 0px rgb(52,52,52);
+}
+.range-2{width: 95%;}
+.range-3{width: 80%;}
+.range-4{width: 90%;}
+.about h6{letter-spacing: 2px;}
+.about span{color: rgb(82, 81, 81); font-weight: 200;}
+.about button ,.contact button{border:none; transition: background-color 0.5s , color 0.5s; font-weight:200 !important;}
+.about .btn-1:hover,.contact button:hover
+{
+    background-color: transparent;
+    color: black !important;
+}
+.about .btn-2:hover
+{
+    background-color: rgb(28,28,28) !important ;
+    color: white !important;
+}
+/*end-about*/
+
+/*start-services*/
+
+.services,.works,.client,.blog,.contact{position: relative;}
+ h2{position: relative; z-index: 999;}
+ .hr
+{
+    
+    position: absolute;
+    border-bottom: 2px dotted rgb(214, 219, 219);
+    width: 160px;
+    height: 5px;
+    right: 50%;
+    transform: translate(50%);
+}
+.hr-1
+{
+    top: 85px;
+}
+ .hr-2{top: 75px;}
+ .hr-3{top: 65px;}
+.caption-icon{transition:all 0.5s ease-in-out;}
+.caption-card:hover .caption-icon{background-color: var(--bg-color) !important ;}
+.caption-card:hover .icon-i{color: white !important;}
+.caption-card ,.item-blog{box-shadow: 1px 1px 1px rgb(235, 233, 233), -1px -1px 1px rgb(235, 233, 233);}
+
+/*end-services*/
+
+/* start-works*/
+
+.nav-link
+{
+    background-color: transparent !important;
+    color: rgb(28,28,28) !important;
+    transition: all 0.5s !important;
+    
+}
+.nav-link:hover{text-transform: uppercase; text-decoration: underline; font-weight: 500 !important;}
+.nav-item button.active {text-decoration: underline !important;}
+.content:hover .layer{opacity: 1 !important;}
+.content .layer
+{
+    background-color:rgba(247, 252, 251, 0.9) !important;
+    transition: opacity 1s , backgrund-color 0.5s !important;
+    border-width: 10px !important;
+    border-style: solid !important;
+    border-color: transparent !important;
+}
+.icon-layer
+{
+    width: 40px;
+    height: 40px;
+}
+/*end-works*/
+
+/*start-client*/
+
+.img-slider
+{
+    width: 80px;
+    height: 80px;
+}
+.carousel-indicators button.active{transform: translateY(50px);
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    opacity: 1;
+    background-color: rgb(158, 155, 155) !important;
+}
+.carousel-indicators button{transform: translateY(50px);
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    opacity: 0.5;
+    background-color: gray !important;
+}
+/*end-client*/
+
+/*start-blog*/
+.line 
+{
+    border-bottom: 2px solid var(--bg-color);
+    width: 85px;
+    margin-bottom: 10px;
+}
+.caption-blog{cursor: pointer;}
+.img-blog img{transition: transform 0.7s; transform-origin:center;}
+.img-blog:hover img{transform: scale(1.08);}
+/*end-blog*/
+
+/*start-contact*/
+.icon-contact
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+}
+.icon-contact{transition: all 0.5s;}
+.caption-contact:hover .icon-contact
+{
+    background-color: var(--bg-color) !important;
+    color: #fff;
+}
+.input,.text{border: none !important; background-color: rgb(238, 237, 237) !important;}
+.input::placeholder ,.text::placeholder{text-transform: capitalize; padding-top: 0px !important;}
+.text{height: 120px !important;}
+/*end-contact*/
